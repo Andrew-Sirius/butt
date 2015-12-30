@@ -1,0 +1,35 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster|Lora:400italic&subset=latin,cyrillic);
+@import "loaders.css";
+@import "message.css";
+html{position:relative;min-height:100%}
+body{margin-bottom:40px;margin-top:70px;font-family:'Lora',serif;font-size:16px}
+.h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6{font-family:'Lobster',cursive;font-weight:normal}
+.mt10{margin-top:10px!important}
+.footer{position:absolute;bottom:0;width:100%;height:40px;background-color:#f5f5f5}
+.navbar-brand>img{height:40px;margin-top:-10px}
+.panel-heading h3{margin:0}
+.blur{-webkit-filter:blur(5px);-moz-filter:blur(5px);filter:blur(5px)}
+.content{margin-bottom:60px;-webkit-box-shadow:0 0 5px #CDCDCD;-moz-box-shadow:0 0 5px #CDCDCD;box-shadow:0 0 5px #CDCDCD;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px}
+.nav-tabs{margin-bottom:15px}
+/* blog */
+.blog-header{padding-top:20px;padding-bottom:20px}.blog-title{margin-top:30px;margin-bottom:0;font-size:60px;font-weight:normal}.blog-description{font-size:20px;color:#999}.blog-main{font-size:18px;line-height:1.5}.blog-post{margin-bottom:60px}.blog-post-title{margin-bottom:5px;font-size:40px}.blog-post-meta{margin-bottom:20px;color:#999}.sidebar-module{padding:15px;margin:0 -15px 15px}
+
+#holdPointsModal .modal-body .form-group div:first-child,
+#addUserTaskModal .modal-body .form-group div:first-child,
+#pointsAndTasksModal .modal-body .form-group div:first-child
+{margin-right:0;padding-right:0}
+
+#holdPointsModal .modal-body .form-group div:first-child input,
+#addUserTaskModal .modal-body .form-group div:first-child input,
+#pointsAndTasksModal .modal-body .form-group div:first-child input
+{-webkit-border-radius:4px 0px 0px 4px;-moz-border-radius:4px 0px 0px 4px;border-radius:4px 0px 0px 4px}
+
+#holdPointsModal .modal-body .form-group div:last-child,
+#addUserTaskModal .modal-body .form-group div:last-child,
+#pointsAndTasksModal .modal-body .form-group div:last-child
+{margin-left:-1px;padding-left:0}
+
+#holdPointsModal .modal-body .form-group div:last-child input,
+#addUserTaskModal .modal-body .form-group div:last-child input,
+#pointsAndTasksModal .modal-body .form-group div:last-child input
+{-webkit-border-radius:0px 4px 4px 0px;-moz-border-radius:0px 4px 4px 0px;border-radius:0px 4px 4px 0px}
